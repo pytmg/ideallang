@@ -8,6 +8,6 @@ let str Name = "Alice";
 
 print(f"Hello, {name}");
 
-let int age = input("How old are you?: ").parseInt()
+let int age = input("How old are you?: ").parseInt();
 
 print(f"You are {age} years old!");
