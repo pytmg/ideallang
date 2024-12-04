@@ -1,5 +1,8 @@
 # ilts
 
+# ^^ Compiles to TypeScript, can also be omitted since TypeScript is the default compiler.
+# For Python, use # ilp
+
 # This file is just an example of IL and may be changed in future.
 
 print("Hello, World");
