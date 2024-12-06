@@ -1,7 +1,7 @@
-# ilts
+"compiler: ilt";
 
 # ^^ Compiles to TypeScript, can also be omitted since TypeScript is the default compiler.
-# For Python, use # ilp
+# For Python, use "ilp"
 
 # This file is just an example of IL and may be changed in future.
 
@@ -11,6 +11,13 @@ let str Name = "Alice";
 
 print(f"Hello, {name}");
 
-let int age = input("How old are you?: ").parseInt();
+let int age;
+
+while true {
+  try {
+    age = input("How old are you?: ").parseInt();
+    break;
+  } catch { }
+}
 
 print(f"You are {age} years old!");
