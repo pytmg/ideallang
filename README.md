@@ -1,26 +1,25 @@
+![IdealLang](./banner.png)
+
+![Total Commits](https://badgen.net/github/commits/pytmg/ideallang?color=black&icon=github) ![Total Commits](https://badgen.net/github/tags/pytmg/ideallang?color=black&icon=github)
+
 ## Features
-- Dual-compilers: one in TypeScript, one in Python
-- Compile IdealLang code directly to TypeScript or Python
-- Designed to combine the best aspects of both languages
-- Fast and efficient execution
+- Dual compilers
+  - Python and TypeScript
+- Compile IdealLang to Python or TypeScript
+- Designed to combine both languages
 
 ## Installation
-Coming soon! Stay tuned for how to install the compilers.
+
+Compilers and whatnot are not done yet, but will be soon!
 
 ## Usage
-1. Write your code in **IdealLang**.
-2. Choose your target language by adding the appropriate header:
-   - `"compiler: ilp";` for Python compilation
-   - `"compiler: ilt";` for TypeScript compilation
-3. Compile using the corresponding compiler.
-4. Run the compiled code in your desired language environment.
 
-## Compilers
-- **TypeScript Compiler**: Written in TypeScript, compiles IdealLang to TypeScript.
-- **Python Compiler**: Written in Python, compiles IdealLang to Python.
+1. Write your code in IdealLang under the `.il` file extension
+2. Choose your target language by adding the appropriate header
+   - `"compiler: ilp";` for Python
+   - `"compiler: ilt";` for TypeScript
+3. Compile and run the code in the language environment
 
-## License
-[LICENSE](/LICENSE)
+---
 
-## Coming Soon!
-The full documentation and examples will be released soon!
+License: [Ideal License (ILi)](./LICENSE) *Custom*
