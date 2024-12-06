@@ -9,7 +9,7 @@ print("Hello, World");
 
 let str Name = "Alice";
 
-print(f"Hello, {name}");
+print(f"Hello, {Name}");
 
 let int age;
 
