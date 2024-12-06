@@ -10,8 +10,8 @@ Coming soon! Stay tuned for how to install the compilers.
 ## Usage
 1. Write your code in **IdealLang**.
 2. Choose your target language by adding the appropriate header:
-   - `# ilp` for Python compilation
-   - `# ilts` for TypeScript compilation
+   - `"compiler: ilp";` for Python compilation
+   - `"compiler: ilt";` for TypeScript compilation
 3. Compile using the corresponding compiler.
 4. Run the compiled code in your desired language environment.
 
