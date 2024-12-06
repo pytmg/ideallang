@@ -13,11 +13,12 @@ print(f"Hello, {Name}");
 
 let int age;
 
-while true {
+while !age {
   try {
     age = input("How old are you?: ").parseInt();
-    break;
-  } catch { }
+  } catch {
+    print("Numbers, please.\n");
+  }
 }
 
 print(f"You are {age} years old!");
