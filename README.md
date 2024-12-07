@@ -1,6 +1,6 @@
 ![IdealLang](./banner.png)
 
-![Total Commits](https://badgen.net/github/commits/pytmg/ideallang?color=black&icon=github) ![Total Commits](https://badgen.net/github/tags/pytmg/ideallang?color=black&icon=github)
+![Total Commits](https://badgen.net/github/commits/pytmg/ideallang?color=black&icon=github) ![Tags](https://badgen.net/github/tags/pytmg/ideallang?color=black&icon=github)
 
 ## Features
 - Dual compilers
